@@ -101,3 +101,39 @@ a{
     box-shadow: 0 0 5px rgba(128, 128, 128, 0.562);
     box-sizing: border-box;
 }
+
+img{
+    min-width: 32px;
+    min-height: 32px;
+}
+
+/* Ajustando o tamanho da caixa do chatbot para telas pequenas */
+@media (max-width: 915px) {
+    .mobile{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .card{
+        border-radius: 0px !important;
+    }
+    .no-border{
+        border-radius: 0px !important;
+    }
+    img{
+        min-width: 32px;
+        min-height: 32px;
+    }
+  }
+@media (max-width: 670px) {
+    .options{  
+        white-space: nowrap;
+    }
+    .options-mobile{
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    img{
+        min-width: 32px;
+        min-height: 32px;
+    }
+}

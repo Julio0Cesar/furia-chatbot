@@ -38,7 +38,7 @@ const FuriaChatbot: FC<FuriaChatbotProps> = ({ messages, onSend }) => {
             <div className={`rounded-t-lg ${isBot ? "rounded-br-lg" : "rounded-bl-lg"} bg-white m-2 p-2 max-w-3xl`} style={{ fontSize: '1.15rem' }}>
               <h4 dangerouslySetInnerHTML={{ __html: text }}/>
               {isBot && msg.options && (
-                <div className="flex gap-2 mt-5">
+                <div className="flex gap-2 mt-5 options-mobile">
                   {msg.options.map((option, i) => (
                     <button
                       key={i}

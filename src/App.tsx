@@ -61,19 +61,16 @@ function App() {
   
 
   return (<div className="container-center">
-    <div className="w-2/3 h-full flex items-center">
-      <div className="card w-full h-5/6 overflow-hidden flex flex-col">
-        
-        <div className="bg-black rounded-tl-lg rounded-tr-lg w-full">
+    <div className="w-2/3 h-full flex items-center mobile">
+      <div className="card w-full h-5/6 overflow-hidden flex flex-col mobile">
+        <div className="bg-black rounded-tl-lg rounded-tr-lg w-full no-border">
           <div className="pl-10 p-1">
             <h1>Furia Chatbot</h1>
           </div>
         </div>
-  
         <div className="flex-1 flex flex-col w-full bg-gray-200 overflow-y-auto">
           <FuriaChatbot messages={messages} onSend={handleSend} />
         </div>
-  
         <div className="flex p-2 bg-white border-t">
           <textarea
             className="flex-1 resize-none overflow-y-auto h-12 border rounded-md"
