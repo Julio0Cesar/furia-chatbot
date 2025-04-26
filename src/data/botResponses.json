@@ -1,0 +1,46 @@
+{
+    "saudacoes": {
+      "keywords": ["olá", "ola", "oi", "opa"],
+      "text": "Ei, Como posso te ajudar hoje?",
+      "options": ["site", "redes sociais", "agenda", "elenco", "streams", "loja", "sair"]
+    },
+    "loja": {
+        "keywords": ["loja", "produtos", "merchandise", "camisetas", "bonés"],
+        "text": "Quer mostrar sua paixão pela FURIA? Confira nossa loja oficial e garanta produtos exclusivos: <a href='https://www.furia.gg/'>https://www.furia.gg/</a>",
+        "options": ["site", "redes sociais", "agenda", "elenco", "streams", "sair"]
+    },
+    "streams": {
+        "keywords": ["streams", "assistir ao vivo", "vods", "gameplay", "videos"],
+        "text": "Assista as partidas ao vivo e reveja os melhores momentos da FURIA em nossos vídeos: <a href='https://www.twitch.tv/furiatv'>https://www.twitch.tv/furiatv</a>",
+        "options": ["site", "redes sociais", "agenda", "elenco", "loja", "sair"]
+    },
+    "site": {
+        "keywords": ["site"],
+        "text": "Acesse o site oficial da FURIA e fique por dentro de tudo: <a href='https://www.furia.gg/'>https://www.furia.gg/</a>",
+        "options": ["redes sociais", "agenda", "elenco", "streams", "loja", "sair"]
+    },
+    "redes sociais": {
+        "keywords": ["redes sociais", "instagram", "twitter", "facebook"],
+        "text": "Siga a FURIA nas nossas redes sociais e acompanhe as novidades mais fresquinhas: <br /><br />• Instagram: <a href='https://www.instagram.com/furiagg/'>@furia</a> <br />• Twitter: <a href='https://twitter.com/FURIA'>@FURIA</a> <br />• Facebook: <a href='https://www.facebook.com/FURIAgg/'>@FURIA</a><br />",
+        "options": ["site", "agenda", "elenco", "streams", "loja", "sair"]
+    },
+    "agenda": {
+        "keywords": ["agenda", "jogos", "próximos jogos"],
+        "text": "Aqui estão os próximos jogos da FURIA, prepare-se para apoiar o time: <br /><br />1. FURIA vs Team Liquid - Data: 01/05/2025 - Hora: 18:00 <br />2. FURIA vs NAVI - Data: 05/05/2025 - Hora: 14:00 <br />3. FURIA vs G2 - Data: 09/05/2025 - Hora: 20:00",
+        "options": ["site", "redes sociais", "elenco", "streams", "loja", "sair"]
+    },
+    "elenco": {
+        "keywords": ["elenco", "jogadores", "time"],
+        "text": "Conheça o time incrível da FURIA de CS:GO e os jogadores que vão te emocionar: <br /><br />• yuurih <br />• KSCERATO <br />• FalleN <br />• molodoy <br />• YEKINDAR <br />• sidde",
+        "options": ["site", "redes sociais", "agenda", "streams", "loja", "sair"]
+    },
+    "sair": {
+        "keywords": ["sair"],
+        "text": "",
+        "options": [""]
+    },
+    "default": {
+        "text": "Desculpe, não entendi. Que tal dizer 'Olá' para começarmos de novo?"
+    }
+  }
+  
